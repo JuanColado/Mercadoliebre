@@ -1,0 +1,19 @@
+body{
+    font-family: Roboto;
+}
+header {
+ background-color: #EAC926;
+}
+input {
+ border-radius: 5px;
+}
+.burger-menu{
+   size: 15em;
+}
+ fas fa-bars{
+    size: 15em;
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: center;
+    display: block
+}

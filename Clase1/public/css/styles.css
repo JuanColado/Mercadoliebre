@@ -1,19 +1,72 @@
 body{
-    font-family: Roboto;
+    font-family: "Roboto";
 }
-header {
- background-color: #EAC926;
+header{
+    background-color: #EAC926;
+}
+.navigation {
+ text-decoration: none;
+ color: black;
+}
+ul{
+    list-style-type: none;
 }
 input {
  border-radius: 5px;
 }
-.burger-menu{
-   size: 15em;
+.fa-bars{
+    background-color: #1259c3;
+  color: white;
+  border-radius: 5px;
+  width: 2em;
+  height: 2em;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
- fas fa-bars{
-    size: 15em;
-    margin-bottom: 10px;
-    padding: 0;
+.titulares{
+ font-size: 24px;
+}
+.precios{
+    font-size: 18px;
+}
+.descuento{
+    font-size: 16px;
+}
+.descripcion{
+    font-size: 16px;
+}
+.cuerpotexto{
+    font-size: 12px;
+}
+.fa-user-shield{
+    width: 100%;
+    font-size: 2em;
+    margin: 10px;
+    color: #1259c3;
     text-align: center;
-    display: block
+}
+.fa-gift{
+    width: 100%;
+    font-size: 2em;
+    margin: 10px;
+    color: #1259c3;
+    text-align: center;
+}
+.fa-credit-card{
+    width: 100%;
+    font-size: 2em;
+    margin: 10px;
+    color: #1259c3;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+.copyright{
+    font-size: 10px;
+    text-align: left;
+    font-weight:lighter;
 }

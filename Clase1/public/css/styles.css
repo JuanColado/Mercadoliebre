@@ -31,12 +31,18 @@ input {
 }
 .precios{
     font-size: 18px;
+    text-align: left;
 }
 .descuento{
     font-size: 16px;
+    color: green;
+    text-align: left;
+    margin-bottom: 20px;
 }
 .descripcion{
     font-size: 16px;
+    color: black;
+    text-align: left;
 }
 .cuerpotexto{
     font-size: 12px;
@@ -69,4 +75,23 @@ footer{
     font-size: 10px;
     text-align: left;
     font-weight:lighter;
+}
+.basado{
+    width: 90%;
+    text-align: center;
+}
+.articulo{
+    margin: 5px;
+    border-top: solid #ebebeb 1px;
+    padding: 0px 15px 0px 15px;
+}
+.fa-truck{
+    color: green;
+    border: solid green 1px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 10px;
+}
+.foto{
+    border-bottom: solid #ebebeb 1px;
 }

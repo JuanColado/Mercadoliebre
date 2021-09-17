@@ -1,21 +1,33 @@
-body{
-    font-family: "Roboto";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-header{
-    background-color: #EAC926;
+
+body {
+  font-family: "Roboto";
+}
+header {
+  background-color: #eac926;
+}
+.logo {
+  width: 50vw;
+}
+.buscador{
+    width: 50vw;
 }
 .navigation {
- text-decoration: none;
- color: black;
+  text-decoration: none;
+  color: black;
 }
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
 }
 input {
- border-radius: 5px;
+  border-radius: 5px;
 }
-.fa-bars{
-    background-color: #1259c3;
+.fa-bars {
+  background-color: #1259c3;
   color: white;
   border-radius: 5px;
   width: 2em;
@@ -26,72 +38,100 @@ input {
   align-items: center;
   text-align: center;
 }
-.titulares{
- font-size: 24px;
+.titulares {
+  font-size: 24px;
 }
-.precios{
-    font-size: 18px;
-    text-align: left;
+.precios {
+  font-size: 18px;
+  text-align: left;
+  width: 30%;
 }
-.descuento{
-    font-size: 16px;
-    color: green;
-    text-align: left;
-    margin-bottom: 20px;
+.precio-descuento {
+  display: flex;
+  flex-direction: row;
 }
-.descripcion{
-    font-size: 16px;
-    color: black;
-    text-align: left;
+.descuento {
+  font-size: 16px;
+  color: green;
+  text-align: left;
+  margin-bottom: 20px;
+  width: 70%;
 }
-.cuerpotexto{
-    font-size: 12px;
+.descripcion {
+  font-size: 16px;
+  color: black;
+  text-align: left;
+  display: none;
 }
-.fa-user-shield{
+.cuerpotexto {
+  font-size: 12px;
+}
+.fa-user-shield {
+  width: 100%;
+  font-size: 2em;
+  margin: 10px;
+  color: #1259c3;
+  text-align: center;
+}
+.fa-gift {
+  width: 100%;
+  font-size: 2em;
+  margin: 10px;
+  color: #1259c3;
+  text-align: center;
+}
+.fa-credit-card {
+  width: 100%;
+  font-size: 2em;
+  margin: 10px;
+  color: #1259c3;
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+.copyright {
+  font-size: 10px;
+  text-align: left;
+  font-weight: lighter;
+}
+.basado {
+  width: 90%;
+  text-align: center;
+}
+.ofertas {
+  width: 90%;
+  text-align: center;
+}
+.encabezado{
+    display:flex;
+    width: 100vw;
+}
+.articulo {
+  margin: 5px;
+  border-top: solid #ebebeb 1px;
+  padding: 0px 15px 0px 15px;
+}
+.fa-truck {
+  color: green;
+  border: solid green 1px;
+  border-radius: 50%;
+  padding: 8px;
+  margin-top: -20px;
+}
+.camion{
+    display: flex;
     width: 100%;
-    font-size: 2em;
-    margin: 10px;
-    color: #1259c3;
-    text-align: center;
+   justify-content: flex-end;
 }
-.fa-gift{
-    width: 100%;
-    font-size: 2em;
-    margin: 10px;
-    color: #1259c3;
-    text-align: center;
+.foto {
+  border-bottom: solid #ebebeb 1px;
 }
-.fa-credit-card{
-    width: 100%;
-    font-size: 2em;
-    margin: 10px;
-    color: #1259c3;
-    text-align: center;
-}
-footer{
-    text-align: center;
-}
-.copyright{
-    font-size: 10px;
-    text-align: left;
-    font-weight:lighter;
-}
-.basado{
-    width: 90%;
-    text-align: center;
-}
-.articulo{
-    margin: 5px;
-    border-top: solid #ebebeb 1px;
-    padding: 0px 15px 0px 15px;
-}
-.fa-truck{
-    color: green;
-    border: solid green 1px;
-    border-radius: 50%;
-    padding: 10px;
-    margin-top: 10px;
-}
-.foto{
-    border-bottom: solid #ebebeb 1px;
+@media (min-width: 361px) {
+  .articulo {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  .descripcion {
+    display: flex;
+  }
 }

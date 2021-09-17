@@ -1,0 +1,78 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+        <div class="encabezado"><img src="img/logo-mercado-liebre.svg" alt="Logo" class="logo"><br>
+        <span class="buscador"><input type="search" placeholder="Buscar productos, marcas"> <i class="fas fa-search"></i></input></span></div>
+        <p><i class="fas fa-hand-holding-usd"></i>Compra en cuotas y sin tarjeta de crédito</p>
+        <nav>
+        <ul>
+            <li><a href="#" class="navigation"> Ofertas</a></li>
+            <li><a href="#" class="navigation">Tiendas Oficiales</a></li>
+            <li><a href="#" class="navigation">Vender</a></li>
+            <li><a href="#" class="navigation">Ayuda</a></li>
+        </ul>
+        <ul>
+            <li><a href="register" class="navigation">Creá cuenta<i class="fas fa-id-card"></i></a></li>
+            <li><a href="login" class="navigation">Ingesá<i class="fas fa-sign-in-alt"></i></a></li>
+            <li><a href="#" class="navigation">Mis compras<i class="fas fa-shopping-basket"></i></a></li>
+            <div class="burger-menu">
+                <i class="fas fa-bars"></i>
+                </div>
+        </ul>
+    </nav>
+    </header>
+    <form method=GET action="/"> 
+        <label name="nombre_apellido">
+            <input type="text" placeholder="Nombre y Apellido" name="nombre_apellido">
+        </label>
+        <label name="nombre_usuari@">
+            <input type="text" placeholder="nombre_usuari@" name="nombre_apellido">
+        </label>
+        <label name="nacimiento">
+            <input type="date" placeholder="Fecha de nacimiento" name="nacimiento">
+        </label>
+        <label name="domicilio">
+            <input type="text" placeholder="Domicilio" name="domicilio">
+        </label>
+        <label name="perfil">
+       <div><input type="radio" value="Comprador"  name="perfil">Comprador</input>
+        <input type="radio" value="Vendedor"  name="perfil">Vendedor</input></div>
+        </label>
+        <label name="intereses">
+            <input type="checkbox" name="intereses" value="Electro">Electro</input>
+            <input type="checkbox" name="intereses" value="Moda">Moda</input>
+            <input type="checkbox" name="intereses" value="Hogar">Hogar</input>
+            <input type="checkbox" name="intereses" value="Jugueteria">Jugueteria</input>
+            <input type="checkbox" name="intereses" value="Vida Sana">Vida Sana</input>
+        </label>
+        <label name="Fotoperfil">
+            <input type="file" name="Fotoperfil" accept=".jpg, .png">Foto de perfil 
+        </label>
+        <label name="password"> Contraseña
+            <input type="password" name="password" id="password">
+        </label>
+        <label name="passwordcheck"> Confirmar contraseña
+            <input type="password" name="passwordcheck" id="password">
+        </label>
+            <input type="submit" placeholder="Registrar" name="submit">
+            <input type="reset">
+    </form>
+  </body>
+</html>
